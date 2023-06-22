@@ -1,0 +1,965 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+
+}
+
+:root {
+    --black: #000000;
+    --white: #fefefe;
+    --dimblack: #282828;
+    --yellow: #fec722;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+.td-none {
+    text-decoration: none;
+}
+
+.l-none {
+    list-style-type: none;
+}
+
+.custom-ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-space {
+    padding: 40px 0;
+}
+
+/* -------------------------navbar------------------ */
+
+
+header .nav-inner {
+    background-color: var(--black);
+    /* padding-right: 7rem;
+    padding-left: 5rem; */
+
+}
+
+header .nav-inner ul {
+    padding: 0;
+
+}
+
+header .nav-inner li {
+    padding: 0 .5rem;
+
+}
+
+header .nav-inner li a {
+    font-size: calc(.4rem + .4vw);
+
+}
+
+header .nav-inner li a span {
+    padding-left: .5rem;
+
+}
+
+.navbar-wrapper {
+    position: relative;
+}
+
+.navbar-wrapper .zock {
+    margin-top: -2rem;
+
+}
+
+.navbar-wrapper .pen {
+    font-size: calc(1.5rem + .5vw);
+    rotate: 174deg;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    color: var(--yellow);
+}
+
+.navbar-wrapper h2 span {
+    font-size: calc(1rem + .5vw);
+    color: var(--yellow);
+}
+
+.navbar-wrapper h2 small {
+    display: block;
+    font-size: 30%;
+}
+
+
+
+.navbar-wrapper .navbar .nav-item {
+    padding: 0 1rem;
+
+}
+
+.navbar-wrapper .navbar .nav-link:hover {
+    color: var(--yellow) !important;
+
+}
+
+.image-wrapper .carousel-caption {
+    text-align: start;
+    right: 0;
+    top: 15%;
+    left: 0;
+}
+
+.image-wrapper .carousel-caption h2 span {
+    font-size: calc(1.5rem + 2vw);
+    color: var(--yellow);
+}
+
+.image-wrapper .carousel-caption h2 small {
+    font-size: 90%;
+    display: block;
+}
+
+.image-wrapper .carousel-caption p {
+    font-size: calc(.5rem + .3vw);
+}
+
+.image-wrapper .carousel-caption a {
+    border: 1px solid var(--white);
+    padding: .5rem 2rem;
+    /* background-color: var(--dimblack); */
+    color: var(--white);
+    font-size: calc(.5rem + .3vw);
+}
+
+.image-wrapper .carousel-caption a:hover {
+    color: var(--black);
+    background-color: var(--yellow);
+}
+
+.header-text-wrapper {
+    position: absolute;
+    top: 66%;
+    left: 15%;
+    right: 15%;
+
+
+}
+
+.header-text-wrapper .qualify {
+    background-color: var(--dimblack);
+
+}
+
+.header-text-wrapper .qualify a {
+    display: flex;
+
+    align-items: center;
+}
+
+.header-text-wrapper .qualify a i {
+    font-size: calc(1rem + 2vw);
+    color: var(--yellow);
+
+}
+
+.header-text-wrapper .qualify a span {
+    color: var(--white);
+
+}
+
+.header-text-wrapper .qualify p {
+    font-size: calc(.3rem + .3vw);
+}
+
+.header-text-wrapper .teach .yelow {
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
+.header-text-wrapper .teach .yelow i {
+
+    color: var(--black);
+}
+
+/* -------------------------main-section------------------ */
+.course-wrapper h3 span {
+    color: var(--yellow);
+}
+
+.course-wrapper p {
+    font-size: calc(.3rem + .3vw);
+}
+
+.course-wrapper a {
+    border: 1px solid transparent;
+    font-size: calc(.2rem + .2vw);
+    padding: .5rem;
+}
+
+.course-wrapper .prev {
+    background-color: var(--black);
+    color: var(--white);
+    margin-right: -5px;
+}
+
+.course-wrapper .nxt {
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+/* -------------------------main-card------------------ */
+.main-card img {
+    width: 100%;
+}
+
+.main-card .description {
+    margin-top: -2.6rem;
+    width: 100%;
+}
+
+.main-card .description span {
+    background-color: var(--yellow);
+    padding: .5rem 1rem;
+}
+
+.main-card .description small {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: calc(.3rem + .3vw);
+    padding: .5rem 0;
+    padding-left: 1rem;
+    padding-right: 11.1rem;
+
+}
+
+.main-card p {
+    font-size: calc(.3rem + .3rem);
+    padding: 0 2rem;
+}
+
+.main-card .icon-wrapper li {
+    padding: 0 .5rem;
+}
+
+.main-card .icon-wrapper a {
+    font-size: calc(.3rem + .3rem);
+
+}
+
+.main-card .icon-wrapper .dolr {
+    font-size: calc(.5rem + .5rem);
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+/* -------------------------online-wrapper------------------ */
+.online-wrapper img {
+    width: 100%;
+
+}
+
+.online-wrapper h3 span {
+    color: var(--yellow);
+
+}
+
+.online-wrapper p {
+    font-size: calc(.3rem + .3rem);
+
+}
+
+.online-wrapper a {
+    border: 1px solid transparent;
+    padding: .5rem 2rem;
+    color: var(--black);
+    background-color: var(--yellow);
+    margin-top: 2rem;
+}
+
+.online-wrapper h2 {
+    font-size: calc(1rem + .5vw);
+}
+
+.online-wrapper h2 small {
+    font-size: 80%;
+}
+
+.online-wrapper .dial-card {
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 1.5rem;
+}
+
+.online-wrapper .dial-card h4 span {
+    font-size: calc(1rem + 1vw);
+}
+
+.online-wrapper .dial-card h4 small {
+    display: block;
+    font-size: 80%;
+}
+
+/* -------------------------online-wrapper------------------ */
+.select .educat h4 small {
+    color: var(--yellow);
+}
+
+.select .educat p {
+    font-size: calc(.3rem + .3vw);
+}
+
+.select .educat span i {
+    color: var(--yellow);
+}
+
+.e-learning-wrapper {
+    background-color: var(--yellow);
+    padding: 2rem 0;
+}
+
+.e-learning-wrapper a {
+    font-size: calc(1rem + .5vw);
+}
+
+.e-learning-wrapper .ebook {
+    color: var(--white);
+}
+
+/* -------------------------sec-heading------------------ */
+.sec-heading h4 span {
+    color: var(--yellow);
+}
+
+.sec-heading p {
+    font-size: calc(.3rem + .3vw);
+}
+
+/* -------------------------product------------------ */
+.product-wrapper .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: blue;
+    background-color: var(--white);
+}
+
+.product-wrapper .nav-pills .nav-link,
+.nav-pills .show>.nav-link {
+    color: var(--black);
+}
+
+/* -------------------------classes------------------ */
+.classes-wrapper {
+    background-color: var(--yellow);
+}
+
+.classes-wrapper .exprt span {
+    color: var(--white);
+}
+
+/* -------------------------swipper------------------ */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background-color: var(--yellow) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    top: 5rem;
+}
+
+/* -----------------event-wrapper------------ */
+.event-wrapper img {
+    width: 100%;
+}
+
+.event-wrapper .time {
+    border-left: 1px solid rgb(245, 238, 238);
+}
+
+.event-wrapper .time em {
+    border: 1px solid var(--yellow);
+    padding: .3rem 1rem;
+}
+
+.event-wrapper .time h6 {
+    padding-left: .5rem;
+}
+
+.event-wrapper .time h6 span {
+    display: block;
+}
+
+.event-wrapper .col-md-6 p {
+    font-size: calc(.5rem + .5vw);
+}
+
+.event-wrapper a {
+    font-size: calc(.3rem + .3vw);
+    border: 1px solid black;
+    padding: .5rem 1.5rem;
+}
+
+/* -----------------testimonial-wrapper------------ */
+
+.testimonial-wrapper img {
+    width: 100%;
+}
+
+.testimonial-wrapper .test {
+    padding-top: 7rem;
+    transform: translateX(-15%);
+}
+
+.testimonial-wrapper .card {
+    padding: 2rem;
+}
+
+.testimonial-wrapper .card .feed {
+    color: var(--yellow);
+}
+
+.testimonial-wrapper .card p {
+    font-size: calc(.3rem + .3vw);
+}
+
+.testimonial-wrapper .personal-info {
+    align-items: baseline;
+}
+
+.testimonial-wrapper .personal-info a {
+    color: var(--black);
+}
+
+.testimonial-wrapper .personal-info span {
+    display: block;
+}
+
+
+.testimonial-wrapper .progress,
+.progress-stacked {
+    --bs-progress-height: .5rem;
+    width: 20%;
+}
+
+/* -----------------update-wrapper------------ */
+.update-wrapper img {
+    width: 100%;
+}
+
+.update-wrapper ul {
+    background-color: var(--yellow);
+}
+
+.update-wrapper ul li {
+    padding: 0.5rem .5rem;
+}
+
+.update-wrapper ul a {
+    font-size: calc(.4rem + .3vw);
+    color: var(--white);
+}
+
+/* -----------------footer------------ */
+.footer .instruct {
+    background-color: var(--black);
+}
+
+.footer .instruct h3 {
+    font-size: calc(2rem + 1vw);
+}
+
+.footer .instruct .join {
+    font-size: calc(1rem + .5vw);
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+
+/* -----------------footer-wrapper------------ */
+.footer-nav-wrapper {
+    background-color: var(--dimblack);
+}
+
+.footer-nav-wrapper .logo a {
+    color: var(--yellow);
+    rotate: 180deg;
+    padding-top: 2rem;
+    font-size: calc(1rem + .5vw);
+}
+
+.footer-nav-wrapper h6 {
+    color: var(--yellow);
+    padding-left: 1rem;
+}
+
+.footer-nav-wrapper h6 span {
+    display: block;
+}
+
+.footer-nav-wrapper p {
+    font-size: calc(.3rem + .3vw);
+}
+
+.footer-nav-wrapper .call .phne {
+    border: 1px solid gray;
+    padding: .5rem 1rem;
+
+}
+
+.footer-nav-wrapper .call .nmbr {
+    font-size: calc(.5rem + .3vw);
+}
+
+.footer-nav-wrapper .call .nmbr span {
+    display: block;
+}
+
+.footer-nav-wrapper .quick h4 span {
+    text-decoration: underline;
+
+}
+
+.footer-nav-wrapper .quick img {
+    width: 100%;
+
+}
+
+.footer-nav-wrapper .quick ul li a {
+    font-size: calc(.5rem + .5vw);
+
+}
+
+.footer-nav-wrapper .quick ul li a:hover {
+
+    color: var(--yellow) !important;
+}
+
+.footer-nav-wrapper .subscrbe .btn {
+    background-color: var(--yellow);
+}
+
+.footer-nav-wrapper .subscrbe .social-icons a {
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: .5rem;
+
+}
+
+.footer-nav-wrapper .subscrbe .social-icons a:hover {
+
+    background-color: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px) {
+    header .nav-inner li a span {
+        font-size: calc(.3rem + .2vw);
+    }
+
+    .navbar-wrapper .pen {
+        padding-top: 3.5rem;
+
+    }
+
+    .testimonial-wrapper .test {
+        padding-top: 3rem;
+
+    }
+
+    .update-wrapper .custom-ul {
+        display: none;
+    }
+
+    .update-wrapper h6 {
+        padding: 1rem 0;
+    }
+}
+
+
+
+@media(max-width:992px) {
+    header .nav-inner .blck {
+        display: none;
+    }
+
+    header .nav-inner .adrs {
+        display: block !important;
+    }
+
+    .header-text-wrapper {
+        top: 53%;
+    }
+
+    .navbar-wrapper {
+        margin-top: 2.5rem;
+    }
+
+    .navbar-wrapper .zock {
+        padding-top: 0 !important;
+
+    }
+
+    .navbar-wrapper .pen {
+        padding-top: 5rem;
+
+    }
+
+    .navbar-wrapper .nav-inner {
+        justify-content: start;
+        background-color: var(--white);
+    }
+
+    .navbar-wrapper .nav-inner li {
+        padding: 0 .5rem;
+    }
+
+    .navbar-wrapper .nav-inner li a {
+        color: var(--black) !important;
+        font-size: calc(1rem + .5vw);
+    }
+
+    .navbar-wrapper .nav-inner li a span {
+        display: none;
+
+    }
+
+    .navbar-wrapper .navbar .navbar-toggler {
+        position: absolute;
+        top: -2rem;
+        right: 0;
+    }
+
+    .navbar-wrapper .navbar .navbar-nav {
+        position: absolute;
+        right: -34px;
+        z-index: 1;
+    }
+
+    .navbar-wrapper .future {
+        padding: 0;
+    }
+
+    .navbar-wrapper .future .col-md-12 {
+        padding: 1rem !important;
+    }
+
+    .main-card .description {
+        display: none !important;
+    }
+
+    .online-wrapper .row {
+        padding: 0 2rem;
+    }
+
+    .product-wrapper .nav-pills .nav-link,
+    .nav-pills .show>.nav-link {
+        font-size: calc(.3rem + .3vw);
+    }
+
+    .testimonial-wrapper .test {
+        padding-top: 2rem;
+
+    }
+
+    .footer-nav-wrapper .subscrbe .input-group {
+        display: none;
+
+    }
+
+    .bottom-nav .bottam-nav-inner span {
+        align-self: baseline;
+    }
+}
+
+
+
+@media(max-width:768px) {
+
+    .row>* {
+
+        width: 50%;
+        max-width: 50%;
+    }
+
+    .navbar-wrapper .pen {
+        padding-top: 1rem;
+
+    }
+
+    .navbar-wrapper .nav-inner li a {
+
+        font-size: calc(.5rem + .5vw);
+    }
+
+
+
+    .navbar-wrapper .nav-inner .line {
+        display: none;
+    }
+
+    .navbar-wrapper .nav-inner .revrse {
+        margin-left: -6rem;
+        align-items: baseline;
+    }
+
+    .navbar-wrapper .future h2 span {
+        font-size: calc(1rem + 1vw);
+    }
+
+    .navbar-wrapper .future h2 small {
+        font-size: 55%;
+
+    }
+
+    /* .row>* {
+        width: 33.33333%;
+        max-width: 33.33333%;
+    } */
+    .header-top-nav .revrse {
+        align-items: baseline;
+    }
+
+    .header-top-nav .revrse .adrs span {
+        display: none;
+    }
+
+    .header-text-wrapper .qualify a {
+        font-size: calc(.5rem + .5vw);
+
+    }
+
+    .header-text-wrapper {
+        top: 29%;
+    }
+
+    .course-wrapper .row {
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main-card .dsp {
+        padding-top: 1rem;
+        /* margin: 0 auto; */
+    }
+
+    .online-wrapper .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .online-wrapper .row .launch {
+        padding-top: 2rem;
+    }
+
+    .selection .select {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem !important;
+    }
+
+    .selection .educat {
+        padding-top: 2rem;
+    }
+
+    .product-wrapper .row .col-md-4 img {
+        width: 100%;
+        padding-top: 1rem;
+    }
+
+    .event-wrapper .time {
+        display: none;
+    }
+
+    .testimonial-wrapper .test .card {
+        width: 22rem !important;
+        font-size: small;
+        padding: 1rem !important;
+    }
+
+    .testimonial-wrapper .test {
+        padding-top: 1rem;
+    }
+
+    .footer-nav-wrapper .row {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .footer-nav-wrapper .insta .col-md-4 {
+        padding: .5rem 0 !important;
+    }
+
+    .bottom-nav .bottam-nav-inner {
+     flex-direction: column;
+    }
+    .bottom-nav .bottam-nav-inner span{
+        margin: 0 auto;
+       }
+}
+
+
+@media(max-width:576px) {
+    .header-top-nav {
+        display: none;
+    }
+
+    .navbar-wrapper .nav-inner .revrse {
+        display: none !important;
+    }
+
+    .navbar-wrapper .navbar .navbar-toggler {
+
+        top: -1rem;
+
+    }
+
+    .navbar-wrapper .navbar .navbar-nav {
+        top: 2.5rem;
+        left: 4.5rem;
+
+    }
+
+    .navbar-wrapper .navbar .navbar-nav .nav-link {
+        font-size: calc(.3rem + .3vw);
+        color: var(--white);
+    }
+
+    .header-top-nav .revrse {
+        align-items: baseline;
+    }
+
+    .header-text-wrapper {
+        display: none;
+
+    }
+
+    .course-wrapper .row .col-md-6 {
+        text-align: center;
+
+    }
+
+    .course-wrapper .row .prv {
+        margin-left: -15px;
+
+    }
+
+    .main-card .row {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main-card p {
+        padding: 0;
+
+    }
+
+    .main-card .icon-wrapper .dolr {
+        display: none;
+    }
+
+    .online-wrapper .row .course {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .online-wrapper .dial-card {
+
+        padding: 0.7rem;
+    }
+
+    .selection .select .boy {
+        display: none;
+    }
+
+    .event-wrapper .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-wrapper a {
+        display: none;
+    }
+
+    .testimonial-wrapper {
+        padding: 0;
+    }
+
+    .testimonial-wrapper .col-md-6 {
+        margin: 0 auto;
+    }
+
+    .testimonial-wrapper .test {
+        display: none;
+    }
+
+    .update-wrapper .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-wrapper .row {
+
+        flex-direction: column;
+
+    }
+
+    .footer .instruct .join {
+        font-size: calc(.5rem + .5vw);
+
+    }
+ 
+    .footer-nav-wrapper .subscrbe .social-icons a {
+ 
+        padding: 0.2rem;
+    }
+    .bottom-nav .bottam-nav-inner{
+       font-size: calc(.5rem + .5vw);
+       }
+       .bottom-nav .bottam-nav-inner ul li{
+       padding: 0 .5rem!important;
+        }
+}
